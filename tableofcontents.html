@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,44 +10,45 @@
 
     <style>
         body {
-            font-family: "Segoe UI", Arial, sans-serif;
-            margin: 40px;
-            background: #f8f9fb;
-            color: #333;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #0b1f33, #123b5d, #0b263d);
+            color: #1b1b1b;
         }
 
         h2 {
-            font-family: Georgia, serif;
             text-align: center;
-            font-size: 30px;
-            letter-spacing: 1px;
+            color: white;
+            font-size: 32px;
+            letter-spacing: 2px;
             margin-bottom: 30px;
-            color: #222;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
         }
 
         table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 10px;
+            background-color: #ffffff;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-        }
-
-        th,
-        td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #e5e5e5;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
         }
 
         th {
-            background: #eeeeee;
-            font-family: Georgia, serif;
-            font-size: 16px;
+            background-color: #102f4a;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
             text-align: left;
-            color: #222;
+            border-bottom: 3px solid #4db6d6;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #d6e1e8;
+            font-size: 16px;
         }
 
         tr:last-child td {
@@ -56,62 +58,64 @@
         td:first-child {
             width: 10%;
             text-align: center;
-            font-family: "Courier New", monospace;
-            color: #555;
+            color: #244b68;
+            font-weight: bold;
         }
 
         td:last-child {
             width: 10%;
             text-align: center;
-            font-family: "Courier New", monospace;
+            color: #244b68;
+            font-weight: bold;
         }
 
         .unit {
-            background: #f4f4f4;
+            background-color: #dcecf5;
             font-weight: bold;
         }
 
         .unit td {
-            padding-top: 14px;
-            padding-bottom: 14px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #9fc9dc;
         }
 
         .unit a {
-            font-family: Georgia, serif;
-            font-size: 17px;
+            color: #0d3552;
+            font-size: 18px;
         }
 
         .subunit {
             padding-left: 30px;
-            font-weight: 600;
+            font-weight: bold;
+            color: #244b68;
+            background-color: #f3f8fb;
         }
 
         .topic {
             padding-left: 50px;
-            font-size: 14px;
-            color: #555;
+            color: #444;
         }
 
         a {
-            color: #222;
             text-decoration: none;
-            transition: 0.2s;
         }
 
         a:hover {
-            color: #666;
+            color: #168aad;
             text-decoration: underline;
         }
 
-        tr:hover td {
-            background: #fafafa;
+        tr:not(.unit):hover td {
+            background-color: #eef8fc;
         }
     </style>
+
 </head>
 
 <body>
 
-    <h2>Table of Contents</h2>
+    <h2>TABLE OF CONTENTS</h2>
 
     <table>
 
@@ -133,7 +137,9 @@
 
         <tr>
             <td>1.1</td>
-            <td class="subunit">Introduction of Computer</td>
+            <td class="subunit">
+                Introduction of Computer
+            </td>
             <td></td>
         </tr>
 
@@ -145,9 +151,10 @@
             <td></td>
         </tr>
 
-        <!-- Your other rows go here -->
+        <!-- Continue your remaining rows here -->
 
     </table>
 
 </body>
+
 </html>
