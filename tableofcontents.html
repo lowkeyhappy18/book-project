@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -9,31 +9,32 @@
     <title>Table of Contents</title>
 
     <style>
+
         body {
             font-family: "Times New Roman", Times, serif;
             margin: 0;
             padding: 40px;
-            background: linear-gradient(135deg, #0b1f33, #123b5d, #0b263d);
+            background: linear-gradient(135deg, #081b2b, #123b5d, #0a2942);
             color: #1b1b1b;
         }
 
         h2 {
             text-align: center;
             color: white;
-            font-size: 32px;
+            font-size: 34px;
             letter-spacing: 2px;
             margin-bottom: 30px;
-            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         }
 
         table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0;
-            background-color: #ffffff;
+            background-color: white;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
         }
 
         th {
@@ -46,9 +47,10 @@
         }
 
         td {
-            padding: 12px 15px;
+            padding: 11px 15px;
             border-bottom: 1px solid #d6e1e8;
             font-size: 16px;
+            vertical-align: top;
         }
 
         tr:last-child td {
@@ -69,21 +71,25 @@
             font-weight: bold;
         }
 
+        /* Main Units */
+
         .unit {
             background-color: #dcecf5;
             font-weight: bold;
         }
 
         .unit td {
-            padding-top: 15px;
-            padding-bottom: 15px;
+            padding-top: 16px;
+            padding-bottom: 16px;
             border-bottom: 2px solid #9fc9dc;
         }
 
         .unit a {
             color: #0d3552;
-            font-size: 18px;
+            font-size: 19px;
         }
+
+        /* Sub Units */
 
         .subunit {
             padding-left: 30px;
@@ -92,10 +98,14 @@
             background-color: #f3f8fb;
         }
 
+        /* Topics */
+
         .topic {
             padding-left: 50px;
             color: #444;
         }
+
+        /* Links */
 
         a {
             text-decoration: none;
@@ -106,12 +116,16 @@
             text-decoration: underline;
         }
 
+        /* Hover Effect */
+
         tr:not(.unit):hover td {
             background-color: #eef8fc;
         }
+
     </style>
 
 </head>
+
 
 <body>
 
@@ -119,11 +133,18 @@
 
     <table>
 
+        <!-- TABLE HEADER -->
+
         <tr>
             <th>Unit</th>
             <th>Contents</th>
             <th>Hours</th>
         </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 1 -->
+        <!-- ================================================= -->
 
         <tr class="unit">
             <td>1</td>
@@ -151,7 +172,1097 @@
             <td></td>
         </tr>
 
-        <!-- Continue your remaining rows here -->
+        <tr>
+            <td>1.1.2</td>
+            <td class="topic">
+                Evolution of computer technology
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.1.3</td>
+            <td class="topic">
+                Measurement unit of processing speed and storage unit
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.1.4</td>
+            <td class="topic">
+                Super, Mainframe, Mini and Microcomputers
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.1.5</td>
+            <td class="topic">
+                Mobile Computing and its Application
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2</td>
+            <td class="subunit">
+                Computer System and I/O Devices
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.1</td>
+            <td class="topic">
+                Concept of computer architecture and organization
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.2</td>
+            <td class="topic">
+                Components of computer system: input unit, output unit,
+                processing unit, memory unit and storage
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.3</td>
+            <td class="topic">
+                Microprocessor: basic concepts, clock speed, word length,
+                components and functions
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.4</td>
+            <td class="topic">
+                Bus System: data bus, address bus and control bus
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.5</td>
+            <td class="topic">
+                Primary memory: Definition, RAM, ROM, Cache, Buffer,
+                types of RAM and ROM
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.6</td>
+            <td class="topic">
+                Secondary Memory: Definition, Magnetic Disk, Flash Memory,
+                Optical Disk, External Storage Device and memory stick
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.7</td>
+            <td class="topic">
+                Input Devices – Keyboard, Mouse, Scanner, Light Pen, OMR,
+                OCR, BCR, MICR, Touch Screen, Microphone and Digital Camera
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.8</td>
+            <td class="topic">
+                Output Devices: Monitor (LCD, LED), Printer
+                (Dot Matrix, Inkjet, Laser), Speaker
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1.2.9</td>
+            <td class="topic">
+                Hardware Interfaces: Parallel Port, Serial Port,
+                USB Ports, HDMI and Expansion Slots
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 2 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>2</td>
+            <td>
+                <a href="chapter2.html">
+                    Number System and Conversion Boolean Logic
+                </a>
+            </td>
+            <td>11</td>
+        </tr>
+
+        <tr>
+            <td>2.1</td>
+            <td class="subunit">
+                Number System and Conversion
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.1.1</td>
+            <td class="topic">
+                Decimal, Binary, Octal, Hexadecimal Number System &amp;
+                conversion
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.1.2</td>
+            <td class="topic">
+                Calculation in binary addition and subtraction
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.1.3</td>
+            <td class="topic">
+                One’s and Two’s complement methods of binary subtraction
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.2</td>
+            <td class="subunit">
+                Logic Function and Boolean Algebra
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.2.1</td>
+            <td class="topic">
+                Introduction to Boolean algebra
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.2.2</td>
+            <td class="topic">
+                Introduction to Boolean values, truth table,
+                Boolean expression and Boolean function
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.2.3</td>
+            <td class="topic">
+                Logic Gates – AND, OR, NOT, NAND, NOR, XOR and XNOR –
+                its definition, truth table, logic symbol and logic function
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.2.4</td>
+            <td class="topic">
+                Laws of Boolean algebra – Boolean identities,
+                Complement Laws, Identity, Commutative, Associative
+                and Distributive
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>2.2.5</td>
+            <td class="topic">
+                Statement and verification of Laws of Boolean algebra
+                using truth table
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 3 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>3</td>
+            <td>
+                <a href="chapter3.html">
+                    Computer Software and Operating System
+                </a>
+            </td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>3.1</td>
+            <td class="subunit">
+                Concept of Software
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.1.1</td>
+            <td class="topic">
+                Definition of software
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.1.2</td>
+            <td class="topic">
+                Categories of software: System, Utility, Application,
+                Web Based, Mobile Apps
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.2</td>
+            <td class="subunit">
+                Concept of Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.2.1</td>
+            <td class="topic">
+                Introduction to Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.2.2</td>
+            <td class="topic">
+                Role of Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.2.3</td>
+            <td class="topic">
+                Functions of an Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.2.4</td>
+            <td class="topic">
+                Operating system terminology: multiprogramming,
+                multitasking, multiprocessing and distributed
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3</td>
+            <td class="subunit">
+                Windows Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.1</td>
+            <td class="topic">
+                Introduction to GUI based Operating system and its features
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.2</td>
+            <td class="topic">
+                Working in Desktop Application and Window Environment
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.3</td>
+            <td class="topic">
+                Manage Files and Folders with File Explorer
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.4</td>
+            <td class="topic">
+                Customize the start screen and desktop
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.5</td>
+            <td class="topic">
+                Installing and removing devices
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.6</td>
+            <td class="topic">
+                Manage passwords and privacy levels
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.3.7</td>
+            <td class="topic">
+                Use of control panel, system tools and accessories
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.4</td>
+            <td class="subunit">
+                Open Sources and Mobile Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.4.1</td>
+            <td class="topic">
+                Concept of Open Sources Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.4.2</td>
+            <td class="topic">
+                Introduction to Linux and UNIX
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.4.3</td>
+            <td class="topic">
+                Linux Distributions
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.4.4</td>
+            <td class="topic">
+                Concept of Mobile Operating System
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.4.5</td>
+            <td class="topic">
+                Types of Mobile Operating System
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 4 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>4</td>
+            <td>
+                <a href="chapter4.html">
+                    Application Package
+                </a>
+            </td>
+            <td>5</td>
+        </tr>
+
+        <tr>
+            <td>4.1</td>
+            <td class="subunit">
+                Introduction to Office Package
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>4.2</td>
+            <td class="subunit">
+                Introduction to domain-specific tools
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 5 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>5</td>
+            <td>
+                <a href="chapter5.html">
+                    Programming Concepts &amp; Logics
+                </a>
+            </td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>5.1</td>
+            <td class="subunit">
+                Programming Concept
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.1</td>
+            <td class="topic">
+                Introduction to programming languages
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.2</td>
+            <td class="topic">
+                Low level, High level, 4 GL programming languages
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.3</td>
+            <td class="topic">
+                Compiler, Interpreter and Assembler
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.4</td>
+            <td class="topic">
+                Syntax, Semantic and Runtime errors
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.5</td>
+            <td class="topic">
+                Control Structures: Sequence, Selection and Iteration
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.6</td>
+            <td class="topic">
+                Program Design tools – Algorithm, Flowchart and Pseudocode
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.1.7</td>
+            <td class="topic">
+                Absolute binary, BCD, ASCII and Unicode
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2</td>
+            <td class="subunit">
+                C Programming Language
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.1</td>
+            <td class="topic">
+                Introduction and features of C Language
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.2</td>
+            <td class="topic">
+                Structure of C program
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.3</td>
+            <td class="topic">
+                C Preprocessor and Header Files
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.4</td>
+            <td class="topic">
+                Character Set used in C
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.5</td>
+            <td class="topic">
+                Use of Comments
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.6</td>
+            <td class="topic">
+                Identifiers, Keywords and Tokens
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.7</td>
+            <td class="topic">
+                Basic Data Types in C
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.8</td>
+            <td class="topic">
+                Constants and Variables
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.9</td>
+            <td class="topic">
+                Type of Specifier
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.10</td>
+            <td class="topic">
+                Simple and Compound Statements
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.11</td>
+            <td class="topic">
+                Operators and Expressions: arithmetic, relational,
+                logical, assignment, unary and conditional operators
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.12</td>
+            <td class="topic">
+                Input/output (I/O) Functions
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.13</td>
+            <td class="topic">
+                Selection Control Statement: Decisions
+                (if, if-else, if-else-if, nested and switch)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.14</td>
+            <td class="topic">
+                Iteration Control Statement: Looping
+                (while, do while, for nested)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.15</td>
+            <td class="topic">
+                Array: definition, types (1D and 2D),
+                matrix addition and subtraction
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>5.2.16</td>
+            <td class="topic">
+                String: definition and string functions:
+                strlen(), strcat(), strcmp(), strrev(),
+                strcpy(), strlwr(), strupr()
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 6 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>6</td>
+            <td>
+                <a href="chapter6.html">
+                    Web Technology I
+                </a>
+            </td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>6.1</td>
+            <td class="subunit">
+                Introduction: Web development introduction
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.2</td>
+            <td class="subunit">
+                Web browsers and search Engines
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.3</td>
+            <td class="subunit">
+                Overview of various internet &amp; web technologies
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4</td>
+            <td class="subunit">
+                HTML: The Language of the Web
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.1</td>
+            <td class="topic">
+                Objectives
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.2</td>
+            <td class="topic">
+                Structure of HTML
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.3</td>
+            <td class="topic">
+                Published and Hosting
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.4</td>
+            <td class="topic">
+                HTML Tags vs. Attributes
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.5</td>
+            <td class="topic">
+                Basic Tags of HTML: HTML, HEAD, TITLE, BODY
+                (Setting the Fore color and Background color,
+                Background Image, Background Sound)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.6</td>
+            <td class="topic">
+                Heading tag (H1 to H6) and attributes (ALIGN)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.7</td>
+            <td class="topic">
+                FONT tag and Attributes (Size: 1 to 7 Levels,
+                BASEFONT, SMALL, BIG, COLOR)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.8</td>
+            <td class="topic">
+                Paragraph Formatting (P)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.9</td>
+            <td class="topic">
+                Break Line BR
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.10</td>
+            <td class="topic">
+                Comment in HTML
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.11</td>
+            <td class="topic">
+                Formatting Text (B, I, U, Mark, Sup, Sub, EM,
+                BLOCKQUOTE, PREFORMATTED)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.12</td>
+            <td class="topic">
+                Ordered List - OL (LI, Type- 1, I, A, a;
+                START, VALUE)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.13</td>
+            <td class="topic">
+                Unordered List - UL (Bullet Type- Disc, Circle,
+                Square, DL, DT, DD)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.14</td>
+            <td class="topic">
+                ADDRESS Tag<br>
+                Creating Links: Link to other HTML documents or data objects<br>
+                Links to other places in the same HTML documents<br>
+                Links to places in other HTML documents<br>
+                Anchor Tag and Hyperlink
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.15</td>
+            <td class="topic">
+                Tables: Creating Tables using TH, TR and TD tags
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.16</td>
+            <td class="topic">
+                Forms: Creating form using Textbox, radio,
+                checkbox, text area and button
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.17</td>
+            <td class="topic">
+                Introduction to HTML 5 Elements including audio,
+                embed, source, track and video attributes
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.18</td>
+            <td class="topic">
+                HTML 5 Graphics using canvas and svg tags
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.4.19</td>
+            <td class="topic">
+                Concept of domain name and web hosting
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.5</td>
+            <td class="subunit">
+                Cascading Style Sheets
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.5.1</td>
+            <td class="topic">
+                Introduction to Cascading Style Sheet (CSS)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.5.2</td>
+            <td class="topic">
+                Inline CSS
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.5.3</td>
+            <td class="topic">
+                Embedded CSS
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6.5.4</td>
+            <td class="topic">
+                External CSS
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 7 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>7</td>
+            <td>
+                <a href="chapter7.html">
+                    Multimedia
+                </a>
+            </td>
+            <td>6</td>
+        </tr>
+
+        <tr>
+            <td>7.1</td>
+            <td class="subunit">
+                Introduction to Multimedia
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>7.2</td>
+            <td class="subunit">
+                Component of Multimedia: Text, Graphics, Audio,
+                Video and Animation
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>7.3</td>
+            <td class="subunit">
+                Text: Text editor, font type, font style,
+                font size, formatting, color and typography
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>7.4</td>
+            <td class="subunit">
+                Graphics: Introduction, Bitmap graphics,
+                Vector graphics, 2D graphics, 3D graphics
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>7.5</td>
+            <td class="subunit">
+                Audio: Concept of Digital Audio, MIDI, WAV,
+                MP3, AU, Real Audio
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>7.6</td>
+            <td class="subunit">
+                Video: Digital Video, Concept of frames,
+                MPEG, AVI, MOV, MPG
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>7.7</td>
+            <td class="subunit">
+                Animation: Concept of animation, tools for animation,
+                animated GIF and Flash
+            </td>
+            <td></td>
+        </tr>
+
+
+        <!-- ================================================= -->
+        <!-- UNIT 8 -->
+        <!-- ================================================= -->
+
+        <tr class="unit">
+            <td>8</td>
+            <td>
+                <a href="chapter8.html">
+                    Information Security and Cyber Law
+                </a>
+            </td>
+            <td>—</td>
+        </tr>
+
+        <tr>
+            <td>8.1</td>
+            <td class="subunit">
+                Digital society and computer ethics:
+                Ethical issues in computing, computer crimes,
+                and security measures
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.2</td>
+            <td class="subunit">
+                Concept of Information security:
+                Threats to information security, encryption,
+                and decryption techniques
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.3</td>
+            <td class="subunit">
+                Concept of Cybercrime:
+                Types of cybercrimes, cyber laws,
+                and their implications
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.4</td>
+            <td class="subunit">
+                Malicious software and Spam:
+                Types of malware, phishing, spam,
+                and preventive measures
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.5</td>
+            <td class="subunit">
+                Protection from cybercrime:
+                Cybersecurity measures, firewall,
+                antivirus software, and data backup
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.6</td>
+            <td class="subunit">
+                Intellectual Property Right:
+                Copyright, patents, trademarks,
+                and their importance in digital content
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.7</td>
+            <td class="subunit">
+                Concept of Digital Signature
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.8</td>
+            <td class="subunit">
+                Concept of Cyber Law in Nepal
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>8.9</td>
+            <td class="subunit">
+                ICT Policy in Nepal
+            </td>
+            <td></td>
+        </tr>
 
     </table>
 
